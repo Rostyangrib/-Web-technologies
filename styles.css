@@ -5,6 +5,7 @@ html, body {
 }
 
 body {
+    overflow-x: hidden;
     font-family: Arial, sans-serif;
     background-image: url('sambo-bg.jpg');
     background-size: cover;
