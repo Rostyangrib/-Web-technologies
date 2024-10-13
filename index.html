@@ -71,6 +71,8 @@
     </a>
 </div>
 
+<button id="scrollToTopBtn" onclick="scrollToTop()">Наверх</button>
+
 <footer>
     <p>© 2024 Информация о борьбе самбо. Все права защищены.</p>
     <p>Контактная информация:</p>
@@ -79,5 +81,15 @@
     <p>Подробнее об истории самбо можете почитать <a href="https://xn--80ac6afaer.xn--p1ai/content/Istoriia_sambo.html"
                                                      target="_blank" class="history-link">здесь</a>.</p>
 </footer>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+</script>
+    
 </body>
 </html>
